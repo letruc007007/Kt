@@ -15,7 +15,7 @@ public class CauThu {
     public double luongcung;
     public double tienthuong;
     public double tienphat;
-    private String settinhluongthuclanh;
+    public String settinhluongthuclanh;
     public CauThu(int soao, String hoten, int namsinh, double luongcung, double tienthuong, double tienphat) {
         this.soao = soao;
         this.hoten = hoten;
