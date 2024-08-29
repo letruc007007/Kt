@@ -18,8 +18,6 @@ public class QLCauThu {
     public QLCauThu() {
         this.danhSachCauThu = new ArrayList<>();
     }
-
-    // a) Khởi tạo danh sách cầu thủ
     public void khoiTao() {
        danhSachCauThu.add(new CauThu(1, "Pham Van Nguyen",  1995, 10000, 2000, 500));
        danhSachCauThu.add(new CauThu(2, "Dinh Thanh Nha", 1999, 14500,1300,450)); 
